@@ -8,11 +8,10 @@ Console.WriteLine("Введите третье число: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 int max = num1;
 if(num2>max)
-if(num2>num3)
 {
     max = num2;
 }
-else if(num3>max)
+if(num3>max)
 {
     max = num3;
 }
